@@ -1,0 +1,373 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+  <!-- <link rel="shortcut icon" type="image/png" href="photos/logo.png"> -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janvi Raina</title>
+    <meta name="description" content="Personal webpage of Janvi Raina" />
+    <meta name="keywords"
+      content="website,portfolio,web,machine,learning,github,projects,electronics,computer science and engineering" />
+    <meta name="author" content="Janvi Raina" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"
+    type="text/css">
+  </head>
+
+  <body>
+  <!-- HOME -->
+    <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="photos/bg.mp4" type="video/mp4" /></video>
+    <section id="home" data-magellan-target="home" class="page-section home">
+      <!-- NAV BAR -->
+      <!-- small screen -->
+      <div class="title-bar" data-responsive-toggle="nav-bar" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+      </div>
+      <!-- medium-up screen -->
+      <nav class="top-bar" id="nav-bar" data-magellan >
+        <section class="top-bar-section">
+          <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about" style="color: white">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experiences" style="color: white">Experience</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact" style="color: white">Contact Me</a></li>
+          </ul>
+        </section>
+      </nav>
+      <div class="name">
+        <div>
+          <h1>Janvi Raina</h1>
+          <h2>Learning bit by bit</h2>
+        </div>
+      </div>
+    </section>
+    <section id="about" data-magellan-target="about">
+      <div class="centered-container" id="bio">
+        <h1 class="section-title">About me</h1>
+        <p>
+        Final Year B.Tech. Undergraduate at V.J.T.I. Mumbai pursuing Eletronics and Telecommunication as major with a strong interest in Computer Science.
+        Have experience in full-stack development and Machine Learning.
+        Passionate about Machine Learning and Artifical Intelligence.
+        Ready to help with Data Structures and Algorithms.
+        </p>
+        <div id="resume"><a href="pages/Janvi_Raina.pdf" target="_blank">Resume</a></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" data-magellan-target="skills" class="skills">
+      <dl>
+        <dt>
+          <h1 class="section-title">Skills</h1>
+        </dt>
+        <dd class="percentage percentage-60"><span class="text">HTML and CSS</span></dd>
+        <dd class="percentage percentage-50"><span class="text">javascript</span></dd>
+        <dd class="percentage percentage-80"><span class="text">Bootstrap</span></dd>
+        <dd class="percentage percentage-70"><span class="text">C++</span></dd>
+        <dd class="percentage percentage-60"><span class="text">Python</span></dd>
+        <dd class="percentage percentage-60"><span class="text">Flask</span></dd>
+        <dd class="percentage percentage-50"><span class="text">Django</span></dd>
+      </dl>
+    </section>
+
+    <!-- ***************************EXPERIENCES**************************** -->
+    <section id="experiences" data-magellan-target="experiences" class="experiences">
+      <h1>Experiences</h1>
+      <section class="timeline">
+        <ul>
+          <li>
+            <div style="color: black">
+            <h2>Airpix Geoanalytics</h2>
+            <h3>AI based Video Analytics solutions Intern</h3>
+            On-going internship.<break>
+            Currently working on an interesting application using video analytics and AI.
+            </div>
+            <span><time>July 2020</time></span>
+          </li>
+          <li>
+            <div style="color: black">
+            <h2>Community of Coders - Inheritance 2020 Project</h2>
+            <h3>Mentor</h3>
+          Mentored a team in their web based project under "Inheritance 2020" as a part of Community of Coders.  
+          </div>
+            <span><time>May 2020</time></span>
+          <li>
+            <div style="color: black">
+            <h2>Sahu Technologies</h2>
+            <h3>Content Writing Intern/Subject Expert</h3>
+          Served as a Content writer and researched and wrote on "Django". 
+          </div>
+            <span><time>April 2020</time></span>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ********************************PROJECTS ************************-->
+    <section id="portfolio" data-magellan-target="portfolio" class="page-section portfolio">
+      <!-- TAB TITLES -->
+      <ul class="tab">
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'majorp')" id="defaultOpen">Major Projects</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'minorp Art')">Mini Projects</a></li>
+      </ul>
+
+      <!-- UI/UX TAB -->
+      <div id="majorp" class="tabcontent">
+        <div class="photo-grid" id="majorp-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#huswipesCarousel" src='photos/majorp/tech1.png' alt='Our Store '/>
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModal" src='photos/majorp/musical1.png' alt='Musical' caption="This was made as a mini college project. "/>
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#personalPortfolioCarousel" src='photos/majorp/intr1.png' alt='Personal Portfolio Website'/>
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#myModalCarousel" src='photos/majorp/cov1.png' alt='Covid-19 predictor frontpage'/>
+          </div>         
+        </div>
+      </div>
+
+      <!-- MODAL CAROUSEL FOR HUSWIPES WEBSITE -->
+      <div id="huswipesCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="huswipesCarouselItems" class="carousel slide">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/majorp/tech1.png' alt="HUSwipes Wireframe">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/majorp/tech2.png" alt="HUSwipes Mockup">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/majorp/tech3.png" alt="HUSwipes Homepage">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#huswipesCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#huswipesCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Techanvi Store</h3>
+                      <p>An online store created for freshers and other juniors to purchase second hand items from their seniors.Made under "Inheritance 2020".</p>
+                      <p> <a href="https://github.com/JanviRaina/Techanvi_Store" target="_blank">Go to Code</a>.</p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <!-- MODAL CAROUSEL FOR DEVELOPER RESUME MOCKUPS -->
+      <div id="myModalCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-example-generic" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img class="img-responsive" src="photos/majorp/cov1.png" alt="wireframe sketches">
+                    </div>
+                    <div class="item">
+                     <img class="img-responsive" src='photos/majorp/cov2.png' alt="homepage">
+                    <div class="carousel-caption">Home page</div>
+                    </div>
+                     <div class="item">
+                      <img class="img-responsive" src="photos/majorp/cov3.png" alt="profile">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Covid-19 Predictor</h3>
+                      <p>This project helps in predicting if a person has covid-19 or not based on the existing symptoms fed to the system.</p>
+                       <p> <a href="https://github.com/JanviRaina/ML_Predictor_Website" target="_blank">Go to Code</a>.</p>
+                      
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <!-- MODAL CAROUSEL FOR PERSONAL PORTFOLIO-->
+      <div id="personalPortfolioCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="personalPortfolioCarouselItems" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/majorp/intr1.png' alt="...">
+                      <!-- <div class="carousel-caption">
+                        Home page
+                      </div> -->
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/majorp/intru3.png" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/majorp/intru2.png" alt="...">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#personalPortfolioCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#personalPortfolioCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Intruder Detection</h3>
+                      <p>This is a an AI based small project in which an intruder is detected within a region of interest.Can be used for security purposed in banks or in construction areas.</p>
+                   <p> <a href="https://github.com/JanviRaina/Intruder_Detection" target="_blank">Go to Code</a>.</p>
+                  </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+
+      
+
+      <div id="minorp Art" class="tabcontent">
+        <div class="photo-grid">
+          <div class="photo">
+<!--             <img style='height: 100%; width: 100%; object-fit: cover' data-toggle="modal" data-target="#myModal" src='photos/minorp/img.png' alt='Finding Differences' caption="Antar Pata Karo" /> -->
+            
+            <img style='height: 100%; width: 100%; object-fit: cover' data-toggle="modal" data-target="#myModal" src='photos/minorp/img.png' alt='Antar Pata Karo' caption="Finding Differences in two pictures" />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/minorp/note1.png' alt='Simply Note' caption="You can note down anytime anywhere." />
+          </div>
+           <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' data-toggle="modal" data-target="#myModal" src='photos/minorp/port.png' alt='Portfolio' caption="If you want to build your own website." />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/minorp/blog1.png' alt='Blog Frontend' caption="Trvael,Gadgets and Books Blog froentend layout"  />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/minorp/stego1.png' alt='Project-Steganography' caption="Concealing information within other non-secret image" />
+          </div>
+        </div> 
+      </div>
+
+      <!--********** MODAL FOR SINGLE IMAGES *********** -->
+      <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                      <img class="showimage img-responsive" src="" />
+                  </div>
+                  <div class="modal-footer">
+                      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+                      <div class="caption">
+                        <h3 class="modal-title"></h3>
+                        <p class="modal-caption"></p>
+                      </div>
+                  </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+    </section>
+
+
+    <!-- CONTACTS -->
+    <section id="contact" data-magellan-target="contact" class="page-section contact">
+        <div class="container">
+          <div class="my-contact">
+            <h1>Contact</h1>
+            <h2>Janvi Raina</h2>
+
+            <div margin>
+              <a href="https://www.linkedin.com/in/janviraina/" style="color:paleturquoise;"><i
+                  class="fab fa-linkedin" style="font-size: 3em;"></i></a>
+              &nbsp
+              <a href="https://github.com/JanviRaina/" style="color: paleturquoise;"><i class="fab fa-github"
+                  style="font-size: 3em;"></i></a>
+              &nbsp
+              <a href="https://www.instagram.com/janviraina_/" style="color: paleturquoise;"><i class="fab fa-instagram"
+                style="font-size: 3em;"></i></a>
+              &nbsp
+              <a href="https://www.medium.com/janviraina_/" style="color: paleturquoise;"><i class="fab fa-medium"
+                style="font-size: 3em;"></i></a>
+                  </div>
+          </div>
+
+
+          <div class="email-form">
+            <h2>Drop me a message here</h2>
+            <form action="mailto:janvi.raina9@gmail.com" method="post" enctype="text/plain">
+              Name:<br>
+              <input type="text" name="name"><br>
+              E-mail:<br>
+              <input type="text" name="mail"><br>
+              Message:<br>
+              <input type="text" name="comment" size="50"><br>
+              <input type="submit" value="Send" style="color: black">
+              <input type="reset" value="Reset" style="color: black">
+            </form>
+          </div>   
+        </div>       
+    </section>
+    <section class="footer">
+      <p>Copyright &copy; <span id="year"></span> JR </p>
+    </section>
+
+    <script src="js/vendor/jquery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
